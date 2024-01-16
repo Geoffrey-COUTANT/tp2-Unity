@@ -14,6 +14,7 @@ public class MoneyController : MonoBehaviour
         if (other.gameObject.CompareTag("player"))
         {
             Destroy(gameObject);
+            FindObjectOfType<Score>().IncrementScore();
         }
     }
 

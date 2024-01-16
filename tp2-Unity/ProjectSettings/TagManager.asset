@@ -8,6 +8,7 @@ TagManager:
   - Dinosaur
   - text
   - money
+  - player
   layers:
   - Default
   - TransparentFX

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6102339501794031194}
   - component: {fileID: 5445182021252358132}
   m_Layer: 0
-  m_Name: FlyingDino2 (1)
+  m_Name: FlyingDino2
   m_TagString: Dinosaur
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
