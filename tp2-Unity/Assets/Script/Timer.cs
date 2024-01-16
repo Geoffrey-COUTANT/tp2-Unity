@@ -16,7 +16,7 @@ public class Timer : MonoBehaviour
     void Update()
     {
         roundtime = Mathf.RoundToInt(time * 10f) / 10f;
-        text.text = (roundtime + " s");
+        text.text = ($"  {roundtime}  s");
         time += Time.deltaTime;
     }
 }

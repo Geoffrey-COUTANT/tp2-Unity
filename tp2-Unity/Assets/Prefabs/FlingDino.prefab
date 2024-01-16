@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3430002605467756460}
   - component: {fileID: -5281516812471947638}
   - component: {fileID: 7416913766151434030}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FlingDino
   m_TagString: Dinosaur
   m_Icon: {fileID: 0}

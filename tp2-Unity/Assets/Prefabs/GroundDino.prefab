@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6486655161855472478}
   - component: {fileID: -5446381987520969215}
   - component: {fileID: 5136858619493179549}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GroundDino
   m_TagString: Dinosaur
   m_Icon: {fileID: 0}
