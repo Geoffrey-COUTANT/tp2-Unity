@@ -9,9 +9,12 @@ public class Timer : MonoBehaviour
     private float time = 0;
     public TextMeshProUGUI text;
     private float roundtime;
+    
+    public float TimeCount => roundtime;
+    
     void Start()
     {
-        
+        DontDestroyOnLoad(gameObject);
     }
     void Update()
     {

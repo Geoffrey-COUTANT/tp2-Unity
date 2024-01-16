@@ -12,6 +12,7 @@ public class GameOverController : MonoBehaviour
     public UnityEngine.UI.Button ReturnMenuButton;
     public UnityEngine.UI.Button QuitButton;
     public TextMeshProUGUI ScoreText;
+    public TextMeshProUGUI TimeText;
     
     void Start()
     {
@@ -23,7 +24,8 @@ public class GameOverController : MonoBehaviour
         });
         if (StartGameButton) StartGameButton.onClick.AddListener(SceneGame);
 
-        ScoreText.text = $"You lasted {FindObjectOfType<Score>().ScoreValue} secondes";
+        ScoreText.text = $"Your score is {FindObjectOfType<Score>().ScoreValue}";
+        TimeText.text = $"Your time is {FindObjectOfType<Timer>().TimeCount}";
     }
 
     void SceneGame()
