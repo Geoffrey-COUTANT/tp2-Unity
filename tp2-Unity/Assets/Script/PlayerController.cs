@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour
     private int score = 0;
     private float jumpForce = 30;
     [SerializeField] private Rigidbody2D Rigidbody;
-    [SerializeField] private Timer timer;
 
     private void Start()
     {
@@ -47,6 +46,6 @@ public class PlayerController : MonoBehaviour
     }
     void ChangeScene()
     {
-        SceneManager.LoadScene("LooseScene");
+        SceneManager.LoadScene("GameOverScene");
     }
 }

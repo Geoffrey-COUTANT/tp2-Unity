@@ -1,14 +1,20 @@
+using System;
 using TMPro;
 using UnityEngine;
 
 public class Score : MonoBehaviour
 {
-    private int score = 0;
+    public int ScoreValue { get; private set; } = 0;
     [SerializeField] private TextMeshProUGUI text;
+
+    private void Start()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
 
     public void IncrementScore()
     {
-        score++;
-        text.text = score.ToString();
+        ScoreValue++;
+        text.text = ScoreValue.ToString();
     }
 }
