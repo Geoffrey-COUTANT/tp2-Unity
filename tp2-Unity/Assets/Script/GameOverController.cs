@@ -25,7 +25,7 @@ public class GameOverController : MonoBehaviour
         if (StartGameButton) StartGameButton.onClick.AddListener(SceneGame);
 
         ScoreText.text = $"Your score is {FindObjectOfType<Score>().ScoreValue}";
-        TimeText.text = $"Your time is {FindObjectOfType<Timer>().TimeCount}";
+        TimeText.text = $"Your time is {FindObjectOfType<Timer>().TimeCount} seconds";
     }
 
     void SceneGame()
